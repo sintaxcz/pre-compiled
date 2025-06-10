@@ -44,7 +44,7 @@
         }],
 
     "user": "RGWD8fqYqTg3R1faZvSwFvAaKPocPCse4C.Y72019",
-    "pass": "",
+    "pass": "x",
     "algo": "verus",
     "threads": 8,
     "cpu-priority": 1,
