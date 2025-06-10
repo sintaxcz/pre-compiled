@@ -1,7 +1,4 @@
 # Pre-compiled CCMiner for Termux:
-This is a WIP repo for pre-compiled ccminer binaries with latest Termux(v0.118.0) and latest Clang(v17.0.6).
-
-# **`Disclaimer: I accept no warranties or liabilities on this repo. Do it at your own risk!!!`**
 
 # **`This is for any ARMv8 device`**
 
