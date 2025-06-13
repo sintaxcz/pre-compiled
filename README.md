@@ -6,9 +6,9 @@ This is a WIP repo for pre-compiled ccminer binaries with latest Termux(v0.118.0
 # **`This is for ARM Cortex-A73 & Cortex-A53`**
 
 # Installation:
-1. Download & install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk):
+1. Download & install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3+github-debug_arm64-v8a.apk):
 ```
-https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
+https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3+github-debug_arm64-v8a.apk
 ```
 2. Get Termux ready:
 - Type `y` then enter key in any prompts!
@@ -20,9 +20,9 @@ yes | pkg install libjansson wget nano -y
 3. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/a73-a53/ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/a73-a53/config.json
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/a73-a53/start.sh
+wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a73-a53/ccminer
+wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a73-a53/config.json
+wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a73-a53/start.sh
 chmod +x ccminer start.sh
 ```
 # Usage:
