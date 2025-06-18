@@ -25,6 +25,15 @@ wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/config.json
 wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/start.sh
 chmod +x ccminer start.sh
 ```
+4. test
+```
+chmod +x start.sh
+mkdir -p ~/.termux/boot
+wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/ccminer
+wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/config.json
+wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/start.sh -O ~/.termux/boot/start.sh
+~/start.sh
+```
 # Usage:
 
 1. Edit your pools, address, worker name:
