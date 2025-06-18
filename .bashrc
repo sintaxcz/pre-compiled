@@ -1,0 +1,1 @@
+~/ccminer/start.sh
