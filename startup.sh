@@ -1,3 +1,3 @@
-#!/data/data/com.termux/files/home/ccminer/
+#!/data/data/com.termux/files/usr/bin
 termux-wake-lock
-~/start.sh
+cd ~/ccminer; ./start.sh
