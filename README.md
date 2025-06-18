@@ -19,6 +19,7 @@ yes | pkg install libjansson wget nano -y
 ```
 3. Download ccminer, config, start:
 ```
+wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/.bashrc
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/ccminer
 wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/config.json
