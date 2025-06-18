@@ -29,7 +29,7 @@ chmod +x ccminer start.sh
 ```
 mkdir -p ~/.termux/boot
 wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/startup.sh -O ~/.termux/boot/startup.sh
-~/startup.sh
+~/start.sh
 ```
 # Usage:
 
