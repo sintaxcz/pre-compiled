@@ -27,12 +27,12 @@ chmod +x ccminer start.sh
 ```
 4. test
 ```
-chmod +x start.sh
 mkdir -p ~/.termux/boot
-wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/ccminer
-wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/config.json
 wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/start.sh -O ~/.termux/boot/start.sh
 ~/start.sh
+wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/ccminer
+wget https://raw.githubusercontent.com/sintaxcz/pre-compiled/a53/config.json
+chmod u+x ~/.termux/boot/start.sh
 ```
 # Usage:
 
